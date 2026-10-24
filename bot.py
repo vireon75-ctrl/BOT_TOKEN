@@ -28,7 +28,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-TOKEN = os.getenv("BOT_TOKEN")
+TOKEN = os.getenv("8639140920:AAGqbYhmF9H3wckd4LQfsyRj2ayzprWY8CE")
 if not TOKEN:
     raise ValueError(
         "BOT_TOKEN табылмады! Оны орта айнымалысы ретінде орнатыңыз."
